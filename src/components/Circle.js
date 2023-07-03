@@ -18,18 +18,18 @@ const Circle = () => {
   const [menu, setMenu] = useState(false);
   return (
     <div className=" relative opacity-100">
-      <div className=" z-50 fixed right-0 grid place-items-center  h-48 w-48 border-8 shadow-2xl bg-white border-blue-500 rounded-full rounded-tr-none opacity-70">
+      <div className=" z-50 fixed right-0 grid place-items-center border-8 mt-10 mr-10 shadow-2xl bg-white border-white rounded-full rounded-bl-none opacity-70">
         {menu ? (
           <IconButton
             onClick={() => {
               setMenu(!menu);
             }}
           >
-            <CancelIcon style={{ fontSize: 48, color: "blue" }} />
+            <CancelIcon style={{ fontSize: 32, color: "blue" }} />
           </IconButton>
         ) : (
           <IconButton onClick={() => setMenu(!menu)}>
-            <WidgetsIcon style={{ fontSize: 48, color: "blue" }} />
+            <WidgetsIcon style={{ fontSize: 32, color: "blue" }} />
           </IconButton>
         )}
       </div>

@@ -16,10 +16,26 @@ const DivChanger = () => {
   }, []);
 
   return (
-    <div className=" underline decoration-[#03001C]">
-      <div style={{ display: activeDiv === 1 ? "block" : "none" }}>Develop</div>
-      <div style={{ display: activeDiv === 2 ? "block" : "none" }}>Design</div>
-      <div style={{ display: activeDiv === 3 ? "block" : "none" }}> Build</div>
+    <div className="">
+      <div
+        className=" text-sky-600 "
+        style={{ display: activeDiv === 1 ? "block" : "none" }}
+      >
+        Develop
+      </div>
+      <div
+        className=" text-rose-600 "
+        style={{ display: activeDiv === 2 ? "block" : "none" }}
+      >
+        Design
+      </div>
+      <div
+        className=" text-teal-600"
+        style={{ display: activeDiv === 3 ? "block" : "none" }}
+      >
+        {" "}
+        Build
+      </div>
     </div>
   );
 };
