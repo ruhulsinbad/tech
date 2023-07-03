@@ -17,8 +17,8 @@ import Footer from "./Footer";
 const Circle = () => {
   const [menu, setMenu] = useState(false);
   return (
-    <div className=" relative opacity-70">
-      <div className=" z-50 absolute right-0 grid place-items-center  h-48 w-48 border-8 shadow-2xl bg-white border-blue-500 rounded-full rounded-tr-none opacity-70">
+    <div className=" relative opacity-100">
+      <div className=" z-50 fixed right-0 grid place-items-center  h-48 w-48 border-8 shadow-2xl bg-white border-blue-500 rounded-full rounded-tr-none opacity-70">
         {menu ? (
           <IconButton
             onClick={() => {
@@ -46,8 +46,8 @@ const Circle = () => {
           <Hire />
           <Footer />
         </div>
-        <div className={!menu ? " absolute  invisible" : "absolute"}>
-          {/* <OverleyMenu /> */}
+        <div className={!menu ? " absolute  invisible" : "fixed w-full "}>
+          <OverleyMenu />
         </div>
       </div>
     </div>
