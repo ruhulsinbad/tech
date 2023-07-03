@@ -21,10 +21,10 @@ const HeroSection = () => {
           <div> Website</div>
         </div>
         <div className=" flex gap-4">
-          <button className=" mt-12 border-2 border-cyan-600 text-cyan-600 px-10 py-2 font-viga text-xl hover:rounded-md">
+          <button className=" mt-12 border-2 border-cyan-600 text-cyan-600 px-10 py-2 font-viga text-xl hover:rounded-full">
             Start a project
           </button>
-          <button className=" rounded-md mt-12  bg-cyan-600 text-white  px-10 py-2 font-viga text-xl hover:rounded-none">
+          <button className=" rounded-full mt-12  bg-cyan-600 text-white  px-10 py-2 font-viga text-xl hover:rounded-none">
             See Portfolio
           </button>
         </div>
