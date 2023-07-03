@@ -1,4 +1,4 @@
-import { ArrowForward } from "@mui/icons-material";
+// import { ArrowForward } from "@mui/icons-material";
 import { Card } from "@mui/material";
 import React from "react";
 
@@ -84,9 +84,9 @@ const Portfolio = () => {
           />
         </Card>
       </div>
-      <button className=" group absolute shadow-md -bottom-2 -right-4 mr-32 bg-cyan-200 text-lg font-oswald rounded-full px-4 py-1 hover:bg-cyan-600 hover:text-white ">
+      {/* <button className=" group absolute shadow-md -bottom-2 -right-4 mr-32 bg-cyan-200 text-lg font-oswald rounded-full px-4 py-1 hover:bg-cyan-600 hover:text-white ">
         See More <ArrowForward className=" group-hover:translate-x-1" />
-      </button>
+      </button> */}
     </div>
   );
 };

@@ -1,7 +1,5 @@
 import React from "react";
 import DivChanger from "./DivChanger";
-import ImageSrc from "../photos/4300578.png";
-import { ReactComponent as Bulb } from "../photos/blob.svg";
 
 const HeroSection = () => {
   return (
@@ -9,34 +7,22 @@ const HeroSection = () => {
       <div>
         <div className=" pt-24 uppercase text-7xl lg:text-8xl font-lexend font-bold text-[#03001C] opacity-90 ">
           <div className=" flex gap-4 ">
-            We <DivChanger />
+            We Build
+            {/* We <DivChanger /> */}
           </div>
           <div> Website</div>
         </div>
-        <div className=" flex gap-4">
-          <button className=" mt-12 border-2 border-cyan-600 text-cyan-600 px-10 py-2 font-viga text-xl hover:rounded-full">
+        <div className=" flex flex-col items-center justify-center lg:flex-row gap-4">
+          <button className=" w-fit mt-12 border-2 border-cyan-600 text-cyan-600 px-10 py-2 font-viga text-xl hover:rounded-full">
             Start a project
           </button>
-          <button className=" rounded-full mt-12  bg-cyan-600 text-white  px-10 py-2 font-viga text-xl hover:rounded-none">
+          <button className="  w-fit rounded-full mt-12  bg-cyan-600 text-white  px-10 py-2 font-viga text-xl hover:rounded-none">
             See Portfolio
           </button>
         </div>
       </div>
 
       {/* Photo Part  */}
-      <div className="relative">
-        <div className="relative">
-          <img
-            className="absolute z-50 opacity-100"
-            src={ImageSrc}
-            alt="Content"
-            width="400"
-          />
-          <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2">
-            <Bulb />
-          </div>
-        </div>
-      </div>
     </div>
   );
 };
