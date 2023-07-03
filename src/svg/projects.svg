@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="90px" height="90px" viewBox="0 0 90 90" version="1.1">
+    <title>icon-sky-blue-3</title>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="icon-sky-blue-3" fill-rule="nonzero">
+            <circle id="Oval" fill="#A3CFFF" cx="45" cy="45" r="45"/>
+            <rect id="Rectangle" fill="#FE4200" transform="translate(36.004200, 35.004147) rotate(45.000000) translate(-36.004200, -35.004147) " x="28.9302" y="27.9301467" width="14.148" height="14.148"/>
+            <rect id="Rectangle" fill="#3182FF" transform="translate(56.060800, 35.004147) rotate(45.000000) translate(-56.060800, -35.004147) " x="48.9868" y="27.9301467" width="14.148" height="14.148"/>
+            <rect id="Rectangle" fill="#FEAA00" transform="translate(36.004200, 55.060747) rotate(45.000000) translate(-36.004200, -55.060747) " x="28.9302" y="47.9867467" width="14.148" height="14.148"/>
+            <rect id="Rectangle" fill="#FFFFFF" transform="translate(56.060800, 55.060747) rotate(45.000000) translate(-56.060800, -55.060747) " x="48.9868" y="47.9867467" width="14.148" height="14.148"/>
+        </g>
+    </g>
+</svg>

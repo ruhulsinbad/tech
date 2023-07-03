@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="90px" height="90px" viewBox="0 0 90 90" version="1.1">
+    <title>icon-pink-2</title>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="icon-pink-2">
+            <circle id="Oval" fill="#FFB5D1" fill-rule="nonzero" cx="45" cy="45" r="45"/>
+            <path d="M65.5,44.5181 C65.5,33.7385 56.7614,25 45.9819,25 C45.6546,25 45.3293,25.0081 45.006,25.024 L45.006,44.5181 L65.5,44.5181 Z" id="Path" fill="#FFFFFF"/>
+            <path d="M65.5,65.0121 C65.5,54.2326 56.7614,45.494 45.9819,45.494 C45.6546,45.494 45.3293,45.5021 45.006,45.518 L45.006,65.0121 L65.5,65.0121 Z" id="Path" fill="#FFFFFF"/>
+            <path d="M25,65.5 C35.7795,65.5 44.5181,56.7614 44.5181,45.9819 C44.5181,45.6546 44.51,45.3293 44.4941,45.006 L25,45.006 L25,65.5 Z" id="Path" fill="#3182FF"/>
+            <circle id="Oval" fill="#FE4200" fill-rule="nonzero" cx="35.247" cy="34.759" r="9.75904"/>
+        </g>
+    </g>
+</svg>
