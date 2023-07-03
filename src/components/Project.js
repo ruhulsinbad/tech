@@ -7,20 +7,20 @@ import { ReactComponent as Experience } from "../svg/experience.svg";
 const Project = () => {
   return (
     <div className=" relative h-screen ">
-      <div className=" flex">
-        <div className=" w-[50%] grid place-items-center">
+      <div className=" grid grid-cols-1 lg:grid-cols-2">
+        <div className=" lg:col-span-1 grid place-items-center">
           <img src={ImgSrc} alt="Web Dev" />
         </div>
-        <div className=" w-[50%] flex flex-col justify-center gap-4 ">
-          <div className=" px-24 font-cabin text-lg">At Techsinu</div>
-          <div className=" px-24 font-lexend text-5xl">
+        <div className=" lg:col-span-1 flex flex-col justify-center gap-4 my-12 lg:my-0 ">
+          <div className=" px-2 lg:px-24 font-cabin text-lg">At Techsinu</div>
+          <div className=" px-2 lg:px-24 font-lexend text-3xl lg:text-5xl">
             We design and develop beautiful hand-crafted websites in-house on
             the Gold Coast, Australia.
           </div>
         </div>
       </div>
-      <div className=" absolute bottom-0 bg-teal-800 w-full h-40 flex justify-evenly items-center drop-shadow-sm shadow-teal-300 ">
-        <div className=" flex items-center gap-4 rounded-full bg-white px-2  drop-shadow-sm shadow-teal-300 ">
+      <div className=" lg:absolute bottom-0 py-4 lg:py-0 bg-teal-800 w-full lg:h-40 flex flex-col gap-8 lg:flex-row justify-evenly items-center drop-shadow-sm shadow-teal-300 ">
+        <div className=" flex  items-center gap-4 rounded-full bg-white px-2  drop-shadow-sm shadow-teal-300 ">
           <Projects style={{ width: 60 }} />
           <div className=" pr-4 ">
             <p className=" font-ubuntu text-3xl">+350</p>

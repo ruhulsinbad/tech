@@ -5,9 +5,9 @@ import { ReactComponent as Bulb } from "../photos/blob.svg";
 
 const HeroSection = () => {
   return (
-    <div className=" flex justify-between items-center px-36  h-screen bg-gradient-to-br from-[#ffffff] via-[#d8e5eb] to-[#f4f4f4]">
+    <div className=" flex justify-between items-center px-2 lg:px-36  h-screen bg-gradient-to-br from-[#ffffff] via-[#d8e5eb] to-[#f4f4f4]">
       <div>
-        <div className=" pt-24 uppercase text-8xl font-lexend font-bold text-[#03001C] opacity-90 ">
+        <div className=" pt-24 uppercase text-7xl lg:text-8xl font-lexend font-bold text-[#03001C] opacity-90 ">
           <div className=" flex gap-4 ">
             We <DivChanger />
           </div>

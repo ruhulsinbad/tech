@@ -4,13 +4,13 @@ import React from "react";
 
 const Portfolio = () => {
   return (
-    <div className=" px-32 relative  ">
+    <div className=" lg:px-32  ">
       <div className="  mt-20 font-lexend text-4xl text-center">
-        {" "}
-        Browse some of our recent work{" "}
+        Browse some of our recent work
       </div>
-      <div className=" flex gap-6 mt-20 mb-40">
+      <div className=" grid grid-cols-1 lg:grid-cols-3 gap-6 mt-20 mb-40">
         <Card
+          className=" col-span-1"
           variant="outlined"
           sx={{ bgcolor: "white", width: "fit-content", borderRadius: "10px" }}
         >
@@ -35,6 +35,7 @@ const Portfolio = () => {
         </Card>
 
         <Card
+          className=" col-span-1"
           variant="outlined"
           sx={{ bgcolor: "white", width: "fit-content", borderRadius: "10px" }}
         >
@@ -59,6 +60,7 @@ const Portfolio = () => {
         </Card>
 
         <Card
+          className=" col-span-1"
           variant="outlined"
           sx={{ bgcolor: "white", width: "fit-content", borderRadius: "10px" }}
         >

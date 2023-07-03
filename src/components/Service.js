@@ -7,10 +7,10 @@ import { ReactComponent as Hosting } from "../svg/hosting.svg";
 
 const Service = () => {
   return (
-    <div className=" bg-teal-100 px-32 py-28">
+    <div className=" bg-teal-100 px-2 lg:px-32 py-28">
       <h1 className=" font-lexend text-4xl text-center mb-16"> What we do </h1>
-      <div className=" grid grid-cols-12 gap-4">
-        <div className=" col-span-4 flex items-center">
+      <div className=" grid grid-cols-1 lg:grid-cols-4 gap-4">
+        <div className=" col-span-1 lg:col-span-4 flex items-center">
           <Card className=" p-8 bg-white rounded-lg">
             {" "}
             <Design width={60} />{" "}
@@ -31,7 +31,7 @@ const Service = () => {
             </div>
           </Card>
         </div>
-        <div className=" col-span-4 flex flex-col gap-4">
+        <div className=" col-span-1 lg:col-span-4 flex flex-col gap-4">
           <Card className=" p-8 bg-white rounded-lg">
             {" "}
             <Coding width={60} />{" "}
@@ -71,7 +71,7 @@ const Service = () => {
             </div>
           </Card>
         </div>
-        <div className=" col-span-4 flex items-center">
+        <div className=" col-span-1 lg:col-span-4 flex items-center">
           <Card className=" p-8 bg-white rounded-lg">
             {" "}
             <Hosting width={60} />{" "}

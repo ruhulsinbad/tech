@@ -6,14 +6,14 @@ import Woo from "../photos/blog/woo.jpg";
 
 const Blog = () => {
   return (
-    <div className=" px-32 py-24 flex flex-col justify-center items-center bg-gray-300">
+    <div className=" px-2 lg:px-32 py-24 flex flex-col justify-center items-center bg-gray-300">
       <p className=" uppercase text-md  font-lexend text-blue-500">
         Have a read
       </p>
       <p className=" font-opensans font-semibold text-3xl mt-6">
         Our latest blog articles
       </p>
-      <div className=" grid grid-cols-3 gap-10 mt-12">
+      <div className=" grid col-span-1 lg:grid-cols-3 gap-10 mt-12">
         <Card>
           <img src={Gmb} alt="gmb" />
           <div className=" p-4 flex flex-col gap-4">

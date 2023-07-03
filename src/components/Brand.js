@@ -13,10 +13,10 @@ import Logo10 from "../logos/logo10.png";
 const Brand = () => {
   return (
     <div>
-      <h1 className=" mt-20 font-lexend text-4xl text-center">
+      <h1 className=" mt-20 font-lexend text-2xl lg:text-4xl text-center">
         We have some serious brand experience
       </h1>
-      <div className=" grid grid-cols-10 px-32 py-20 gap-8">
+      <div className=" grid grid-cols-10 px-4 lg:px-32 py-20 gap-8 lg:gap-8">
         <div className=" flex flex-col justify-between items-center col-span-2 gap-16">
           <img src={Logo1} alt="logo1" width={180} />
           <img src={Logo2} alt="logo2" width={158} />

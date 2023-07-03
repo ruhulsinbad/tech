@@ -1,16 +1,16 @@
-import { ButtonBase, Card } from "@mui/material";
+import { Card } from "@mui/material";
 import React, { useState } from "react";
 import AddIcon from "@mui/icons-material/Add";
 
 const Faq = () => {
   const [display, setDisplay] = useState(false);
   return (
-    <div className=" p-32 flex flex-col justify-center items-center bg-rose-50">
+    <div className=" p-2 lg:p-32 flex flex-col justify-center items-center bg-rose-50">
       <p className=" uppercase text-md  font-lexend text-green-500">
         More Info
       </p>
       <p className=" font-opensans font-semibold text-3xl"> Web Design FAQs</p>
-      <div className=" grid grid-cols-1 gap-6  w-[60%] mt-10 mx-auto">
+      <div className=" grid grid-cols-1 gap-6  lg:w-[60%] mt-10 mx-auto">
         <Card onClick={(e) => setDisplay(!display)} className=" py-4 px-8">
           <div className=" flex justify-between items-center">
             {" "}
