@@ -10,6 +10,9 @@ import Service from "./Service";
 import Brand from "./Brand";
 import Testimonial from "./Testimonial";
 import Faq from "./Faq";
+import Blog from "./Blog";
+import Hire from "./Hire";
+import Footer from "./Footer";
 
 const Circle = () => {
   const [menu, setMenu] = useState(false);
@@ -39,6 +42,9 @@ const Circle = () => {
           <Brand />
           <Testimonial />
           <Faq />
+          <Blog />
+          <Hire />
+          <Footer />
         </div>
         <div className={!menu ? " absolute  invisible" : "absolute"}>
           {/* <OverleyMenu /> */}
