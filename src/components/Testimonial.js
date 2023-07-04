@@ -4,8 +4,8 @@ import { Card } from "@mui/material";
 
 const Testimonial = () => {
   return (
-    <div className=" bg-sky-600 grid place-items-center py-32">
-      <div className=" w-[50%] mx-auto text-3xl text-white text-center font-raleway font-semibold ">
+    <div className=" bg-sky-600 grid place-items-center py-20 lg:py-32">
+      <div className=" px-2 lg:w-[50%] mx-auto text-xl lg:text-3xl text-white text-center font-raleway font-semibold ">
         {" "}
         "I have nothing but good words to say about Thrive. They've built,
         maintained and continue to improve our website over the last 5 years.
@@ -15,13 +15,16 @@ const Testimonial = () => {
       <Test className=" mt-5" />
       <Card className=" flex mt-10">
         <img
+          className=" w-[45px] lg:w-[60px]"
           src="https://d14pjowmeoxkey.cloudfront.net/wp-content/uploads/julian.jpg"
           alt="pro"
-          width={60}
         />
         <div className=" flex flex-col justify-center px-4">
-          <h1 className=" font-lexend text-xl font-semibold"> Ruhul Sinbad </h1>
-          <p className=" uppercase font-cabin text-md">
+          <h1 className=" font-lexend text-md lg:text-xl font-semibold">
+            {" "}
+            Ruhul Sinbad{" "}
+          </h1>
+          <p className=" uppercase font-cabin text-xs lg:text-md">
             {" "}
             Art Lovers Australia{" "}
           </p>

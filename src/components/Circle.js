@@ -34,7 +34,7 @@ const Circle = () => {
         )}
       </div>
       <div>
-        <div className={menu ? " absolute  invisible" : "absolute"}>
+        <div className={menu ? "invisible absolute" : "absolute"}>
           <HeroSection />
           <Project />
           <Portfolio />
@@ -46,7 +46,7 @@ const Circle = () => {
           <Hire />
           <Footer />
         </div>
-        <div className={!menu ? " absolute  invisible" : "fixed w-full "}>
+        <div className={!menu ? "invisible absolute" : "  fixed w-full "}>
           <OverleyMenu />
         </div>
       </div>

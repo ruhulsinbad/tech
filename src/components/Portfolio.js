@@ -4,13 +4,13 @@ import React from "react";
 
 const Portfolio = () => {
   return (
-    <div className=" lg:px-32  ">
+    <div className=" lg:px-32 mt-12 ">
       <div className="  mt-20 font-lexend text-4xl text-center">
         Browse some of our recent work
       </div>
       <div className=" grid grid-cols-1 lg:grid-cols-3 gap-6 mt-20 mb-40">
         <Card
-          className=" col-span-1"
+          className=" mx-auto col-span-1"
           variant="outlined"
           sx={{ bgcolor: "white", width: "fit-content", borderRadius: "10px" }}
         >
@@ -35,7 +35,7 @@ const Portfolio = () => {
         </Card>
 
         <Card
-          className=" col-span-1"
+          className=" col-span-1  mx-auto"
           variant="outlined"
           sx={{ bgcolor: "white", width: "fit-content", borderRadius: "10px" }}
         >
@@ -47,8 +47,7 @@ const Portfolio = () => {
               web design
             </button>
             <div className=" text-black mt-3 text-xl font-cabin">
-              {" "}
-              Aurora Traning Institute{" "}
+              Aurora Traning Institute
             </div>
           </div>
 
@@ -60,7 +59,7 @@ const Portfolio = () => {
         </Card>
 
         <Card
-          className=" col-span-1"
+          className=" col-span-1 mx-auto"
           variant="outlined"
           sx={{ bgcolor: "white", width: "fit-content", borderRadius: "10px" }}
         >
@@ -72,8 +71,7 @@ const Portfolio = () => {
               web design
             </button>
             <div className=" text-black mt-3 text-xl font-cabin">
-              {" "}
-              Aurora Traning Institute{" "}
+              Aurora Traning Institute
             </div>
           </div>
 
@@ -84,9 +82,6 @@ const Portfolio = () => {
           />
         </Card>
       </div>
-      {/* <button className=" group absolute shadow-md -bottom-2 -right-4 mr-32 bg-cyan-200 text-lg font-oswald rounded-full px-4 py-1 hover:bg-cyan-600 hover:text-white ">
-        See More <ArrowForward className=" group-hover:translate-x-1" />
-      </button> */}
     </div>
   );
 };
