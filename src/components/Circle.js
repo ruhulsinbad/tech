@@ -17,8 +17,8 @@ import Footer from "./Footer";
 const Circle = () => {
   const [menu, setMenu] = useState(false);
   return (
-    <div className=" relative opacity-100">
-      <div className=" z-50 fixed right-0 grid place-items-center border-8 mt-10 mr-10 shadow-2xl bg-white border-white rounded-full rounded-bl-none opacity-70">
+    <div className=" relative opacity-100 h-screen">
+      <div className=" z-50 fixed right-0 grid place-items-center border-8 mb-1 mr-1 lg:mt-10 lg:mr-10 shadow-2xl bg-white border-white rounded-full rounded-bl-none opacity-70">
         {menu ? (
           <IconButton
             onClick={() => {

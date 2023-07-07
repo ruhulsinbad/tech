@@ -8,8 +8,8 @@ const HeroSection = () => {
       <h1 className=" font-teko text-6xl "> Techsinu </h1>
       <div className=" grid grid-cols-1 lg:grid-cols-2 ">
         <div className=" ">
-          <div className=" w-full pt-24 uppercase text-6xl lg:text-7xl font-lexend font-bold text-[#03001C] opacity-90 ">
-            <div className=" flex gap-4 ">
+          <div className=" w-full pt-24 uppercase text-5xl lg:text-7xl font-lexend font-bold text-[#03001C] opacity-90 ">
+            <div className=" flex gap-4 w-full">
               We <DivChanger />
             </div>
             <div> Website</div>
@@ -26,7 +26,7 @@ const HeroSection = () => {
 
         {/* Photo Part  */}
         <div className=" hidden lg:block">
-          <img src={ImgSrc} alt=" hi" />
+          <img src={ImgSrc} alt=" hi" width={600} height={600} />
         </div>
       </div>
     </div>
