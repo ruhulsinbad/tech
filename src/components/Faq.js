@@ -3,7 +3,12 @@ import React, { useState } from "react";
 import AddIcon from "@mui/icons-material/Add";
 
 const Faq = () => {
-  const [display, setDisplay] = useState(false);
+  const [display1, setDisplay1] = useState(false);
+  const [display2, setDisplay2] = useState(false);
+  const [display3, setDisplay3] = useState(false);
+  const [display4, setDisplay4] = useState(false);
+  const [display5, setDisplay5] = useState(false);
+  const [display6, setDisplay6] = useState(false);
   return (
     <div className=" p-2 lg:p-32 flex flex-col justify-center items-center bg-rose-50">
       <p className=" uppercase text-md  font-lexend text-green-500">
@@ -11,7 +16,7 @@ const Faq = () => {
       </p>
       <p className=" font-opensans font-semibold text-3xl"> Web Design FAQs</p>
       <div className=" grid grid-cols-1 gap-6  lg:w-[60%] mt-10 mx-auto">
-        <Card onClick={(e) => setDisplay(!display)} className=" py-4 px-8">
+        <Card onClick={(e) => setDisplay1(!display1)} className=" py-4 px-8">
           <div className=" flex justify-between items-center">
             {" "}
             <h1 className="text-2xl font-lexend">
@@ -19,13 +24,13 @@ const Faq = () => {
               Do you build websites with accessibility in mind?{" "}
             </h1>
             <AddIcon
-              className={display ? "rotate-45 text-sky-700" : " text-sky-700"}
+              className={display1 ? "rotate-45 text-sky-700" : " text-sky-700"}
             />
           </div>
 
           <div
             className={
-              display
+              display1
                 ? "inherit border-l-4 mt-4 border-cyan-600 pl-6 font-play"
                 : "hidden"
             }
@@ -42,21 +47,21 @@ const Faq = () => {
             websites in our portfolio.
           </div>
         </Card>
-        <Card onClick={(e) => setDisplay(!display)} className=" py-4 px-8">
+        <Card onClick={(e) => setDisplay2(!display2)} className=" py-4 px-8">
           <div className=" flex justify-between items-center">
             {" "}
             <h1 className="text-2xl font-lexend">
               {" "}
-              Do you build websites with accessibility in mind?{" "}
+              Do you build websites with accessibility in mind?
             </h1>
             <AddIcon
-              className={display ? "rotate-45 text-sky-700" : " text-sky-700"}
+              className={display2 ? "rotate-45 text-sky-700" : " text-sky-700"}
             />
           </div>
 
           <div
             className={
-              display
+              display2
                 ? "inherit border-l-4 mt-4 border-cyan-600 pl-6 font-play"
                 : "hidden"
             }
@@ -73,7 +78,7 @@ const Faq = () => {
             websites in our portfolio.
           </div>
         </Card>
-        <Card onClick={(e) => setDisplay(!display)} className=" py-4 px-8">
+        <Card onClick={(e) => setDisplay3(!display3)} className=" py-4 px-8">
           <div className=" flex justify-between items-center">
             {" "}
             <h1 className="text-2xl font-lexend">
@@ -81,13 +86,13 @@ const Faq = () => {
               Do you build websites with accessibility in mind?{" "}
             </h1>
             <AddIcon
-              className={display ? "rotate-45 text-sky-700" : " text-sky-700"}
+              className={display3 ? "rotate-45 text-sky-700" : " text-sky-700"}
             />
           </div>
 
           <div
             className={
-              display
+              display3
                 ? "inherit border-l-4 mt-4 border-cyan-600 pl-6 font-play"
                 : "hidden"
             }
@@ -104,7 +109,7 @@ const Faq = () => {
             websites in our portfolio.
           </div>
         </Card>
-        <Card onClick={(e) => setDisplay(!display)} className=" py-4 px-8">
+        <Card onClick={(e) => setDisplay4(!display4)} className=" py-4 px-8">
           <div className=" flex justify-between items-center">
             {" "}
             <h1 className="text-2xl font-lexend">
@@ -112,13 +117,13 @@ const Faq = () => {
               Do you build websites with accessibility in mind?{" "}
             </h1>
             <AddIcon
-              className={display ? "rotate-45 text-sky-700" : " text-sky-700"}
+              className={display4 ? "rotate-45 text-sky-700" : " text-sky-700"}
             />
           </div>
 
           <div
             className={
-              display
+              display4
                 ? "inherit border-l-4 mt-4 border-cyan-600 pl-6 font-play"
                 : "hidden"
             }
@@ -135,7 +140,7 @@ const Faq = () => {
             websites in our portfolio.
           </div>
         </Card>
-        <Card onClick={(e) => setDisplay(!display)} className=" py-4 px-8">
+        <Card onClick={(e) => setDisplay5(!display5)} className=" py-4 px-8">
           <div className=" flex justify-between items-center">
             {" "}
             <h1 className="text-2xl font-lexend">
@@ -143,13 +148,13 @@ const Faq = () => {
               Do you build websites with accessibility in mind?{" "}
             </h1>
             <AddIcon
-              className={display ? "rotate-45 text-sky-700" : " text-sky-700"}
+              className={display5 ? "rotate-45 text-sky-700" : " text-sky-700"}
             />
           </div>
 
           <div
             className={
-              display
+              display5
                 ? "inherit border-l-4 mt-4 border-cyan-600 pl-6 font-play"
                 : "hidden"
             }
@@ -166,7 +171,7 @@ const Faq = () => {
             websites in our portfolio.
           </div>
         </Card>
-        <Card onClick={(e) => setDisplay(!display)} className=" py-4 px-8">
+        <Card onClick={(e) => setDisplay6(!display6)} className=" py-4 px-8">
           <div className=" flex justify-between items-center">
             {" "}
             <h1 className="text-2xl font-lexend">
@@ -174,13 +179,13 @@ const Faq = () => {
               Do you build websites with accessibility in mind?{" "}
             </h1>
             <AddIcon
-              className={display ? "rotate-45 text-sky-700" : " text-sky-700"}
+              className={display6 ? "rotate-45 text-sky-700" : " text-sky-700"}
             />
           </div>
 
           <div
             className={
-              display
+              display6
                 ? "inherit border-l-4 mt-4 border-cyan-600 pl-6 font-play"
                 : "hidden"
             }
