@@ -14,16 +14,24 @@ const Portfolio = () => {
           variant="outlined"
           sx={{ bgcolor: "white", width: "fit-content", borderRadius: "10px" }}
         >
-          <div className=" p-4 mt-4">
-            <button className=" uppercase bg-cyan-200 text-cyan-700 px-4 font-cabin text-sm rounded-full py-1">
-              branding
-            </button>
-            <button className=" uppercase bg-cyan-200 text-cyan-700 px-4 font-cabin text-sm rounded-full py-1">
-              web design
-            </button>
+          <div className="  p-4 mt-4">
+            <div className=" flex gap-4">
+              <button
+                name="branding"
+                className=" uppercase border-2 border-cyan-900 bg-white text-cyan-900 px-4 font-cabin text-xs rounded-full py-1"
+              >
+                branding
+              </button>
+              <button
+                name="design"
+                className=" uppercase border-2  border-cyan-900  bg-white text-cyan-900 px-4 font-cabin text-xs rounded-full py-1"
+              >
+                web design
+              </button>
+            </div>
+
             <div className=" text-black mt-3 text-xl font-cabin">
-              {" "}
-              Aurora Traning Institute{" "}
+              Aurora Traning Institute
             </div>
           </div>
 
@@ -40,12 +48,20 @@ const Portfolio = () => {
           sx={{ bgcolor: "white", width: "fit-content", borderRadius: "10px" }}
         >
           <div className=" p-4 mt-4">
-            <button className=" uppercase bg-cyan-200 text-cyan-700 px-4 font-cabin text-sm rounded-full py-1">
-              branding
-            </button>
-            <button className=" uppercase bg-cyan-200 text-cyan-700 px-4 font-cabin text-sm rounded-full py-1">
-              web design
-            </button>
+            <div className=" flex gap-4">
+              <button
+                name="branding"
+                className=" uppercase border-2 border-cyan-900 bg-white text-cyan-900 px-4 font-cabin text-xs rounded-full py-1"
+              >
+                branding
+              </button>
+              <button
+                name="design"
+                className=" uppercase border-2  border-cyan-900  bg-white text-cyan-900 px-4 font-cabin text-xs rounded-full py-1"
+              >
+                web design
+              </button>
+            </div>
             <div className=" text-black mt-3 text-xl font-cabin">
               Aurora Traning Institute
             </div>
@@ -64,12 +80,20 @@ const Portfolio = () => {
           sx={{ bgcolor: "white", width: "fit-content", borderRadius: "10px" }}
         >
           <div className=" p-4 mt-4">
-            <button className=" uppercase bg-cyan-200 text-cyan-700 px-4 font-cabin text-sm rounded-full py-1">
-              branding
-            </button>
-            <button className=" uppercase bg-cyan-200 text-cyan-700 px-4 font-cabin text-sm rounded-full py-1">
-              web design
-            </button>
+            <div className=" flex gap-4">
+              <button
+                name="branding"
+                className=" uppercase border-2 border-cyan-900 bg-white text-cyan-900 px-4 font-cabin text-xs rounded-full py-1"
+              >
+                branding
+              </button>
+              <button
+                name="design"
+                className=" uppercase border-2  border-cyan-900  bg-white text-cyan-900 px-4 font-cabin text-xs rounded-full py-1"
+              >
+                web design
+              </button>
+            </div>
             <div className=" text-black mt-3 text-xl font-cabin">
               Aurora Traning Institute
             </div>

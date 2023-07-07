@@ -15,10 +15,13 @@ const HeroSection = () => {
             <div> Website</div>
           </div>
           <div className="  flex  lg:flex-row gap-4">
-            <button className=" w-fit mt-12 border-2 border-cyan-600 text-cyan-600 px-10 py-2 font-viga text-xl hover:rounded-full">
+            <button className=" w-fit mt-12 border-2 border-cyan-900 text-cyan-900 px-10 py-2 font-viga text-xl hover:rounded-full">
               Start a project
             </button>
-            <button className="  w-fit rounded-full mt-12  bg-cyan-600 text-white  px-10 py-2 font-viga text-xl hover:rounded-none">
+            <button
+              name="portfolio"
+              className="  w-fit rounded-full mt-12  bg-cyan-900 text-white  px-10 py-2 font-viga text-xl hover:rounded-none"
+            >
               See Portfolio
             </button>
           </div>
