@@ -25,11 +25,11 @@ const Circle = () => {
               setMenu(!menu);
             }}
           >
-            <CancelIcon style={{ fontSize: 32, color: "blue" }} />
+            <CancelIcon style={{ fontSize: 24, color: "blue" }} />
           </IconButton>
         ) : (
           <IconButton onClick={() => setMenu(!menu)}>
-            <WidgetsIcon style={{ fontSize: 32, color: "blue" }} />
+            <WidgetsIcon style={{ fontSize: 24, color: "blue" }} />
           </IconButton>
         )}
       </div>
