@@ -1,18 +1,19 @@
-import React, { useState } from "react";
+import React, { lazy, useState } from "react";
 import WidgetsIcon from "@mui/icons-material/Widgets";
 import CancelIcon from "@mui/icons-material/Cancel";
 import { IconButton } from "@mui/material";
-import OverleyMenu from "./OverleyMenu";
-import HeroSection from "./HeroSection";
-import Project from "./Project";
-import Portfolio from "./Portfolio";
-import Service from "./Service";
-import Brand from "./Brand";
-import Testimonial from "./Testimonial";
-import Faq from "./Faq";
-import Blog from "./Blog";
-import Hire from "./Hire";
-import Footer from "./Footer";
+
+const OverleyMenu = lazy(() => import("./OverleyMenu"));
+const HeroSection = lazy(() => import("./HeroSection"));
+const Project = lazy(() => import("./Project"));
+const Service = lazy(() => import("./Service"));
+const Brand = lazy(() => import("./Brand"));
+const Portfolio = lazy(() => import("./Portfolio"));
+const Testimonial = lazy(() => import("./Testimonial"));
+const Faq = lazy(() => import("./Faq"));
+const Blog = lazy(() => import("./Blog"));
+const Hire = lazy(() => import("./Hire"));
+const Footer = lazy(() => import("./Footer"));
 
 const Circle = () => {
   const [menu, setMenu] = useState(false);
