@@ -22,6 +22,7 @@ const Circle = () => {
       <div className=" z-50 fixed right-0 grid place-items-center border-8 mb-1 mr-1 lg:mt-10 lg:mr-10 shadow-2xl bg-white border-white rounded-full rounded-bl-none opacity-70">
         {menu ? (
           <IconButton
+            title="true-menu"
             onClick={() => {
               setMenu(!menu);
             }}
@@ -29,7 +30,7 @@ const Circle = () => {
             <CancelIcon style={{ fontSize: 24, color: "blue" }} />
           </IconButton>
         ) : (
-          <IconButton onClick={() => setMenu(!menu)}>
+          <IconButton title="false-menu" onClick={() => setMenu(!menu)}>
             <WidgetsIcon style={{ fontSize: 24, color: "blue" }} />
           </IconButton>
         )}

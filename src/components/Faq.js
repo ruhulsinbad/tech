@@ -11,7 +11,7 @@ const Faq = () => {
   const [display6, setDisplay6] = useState(false);
   return (
     <div className=" p-2 lg:p-32 flex flex-col justify-center items-center bg-rose-50">
-      <p className=" uppercase text-md  font-lexend text-green-500">
+      <p className=" uppercase text-md  font-lexend text-green-900">
         More Info
       </p>
       <p className=" font-opensans font-semibold text-3xl"> Web Design FAQs</p>
@@ -24,14 +24,14 @@ const Faq = () => {
               Do you build websites with accessibility in mind?{" "}
             </h1>
             <AddIcon
-              className={display1 ? "rotate-45 text-sky-700" : " text-sky-700"}
+              className={display1 ? "rotate-45 text-sky-900" : " text-sky-900"}
             />
           </div>
 
           <div
             className={
               display1
-                ? "inherit border-l-4 mt-4 border-cyan-600 pl-6 font-play"
+                ? "inherit border-l-4 mt-4 border-cyan-900 pl-6 font-play"
                 : "hidden"
             }
           >

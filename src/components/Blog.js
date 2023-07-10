@@ -7,7 +7,7 @@ import Woo from "../photos/blog/woo.jpg";
 const Blog = () => {
   return (
     <div className=" px-2 lg:px-32 py-24 flex flex-col justify-center items-center bg-gray-300">
-      <p className=" uppercase text-md  font-lexend text-blue-500">
+      <p className=" uppercase text-md  font-lexend text-blue-900">
         Have a read
       </p>
       <p className=" font-opensans font-semibold text-3xl mt-6">
