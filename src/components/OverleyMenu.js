@@ -8,7 +8,7 @@ import {
 
 const OverleyMenu = () => {
   return (
-    <div className="  bg-sky-400 h-screen text-white px-20 py-10">
+    <div className="  bg-sky-400 lg:h-screen text-white px-20 py-10">
       <h1 className=" font-oswald text-3xl "> TECHSINU </h1>
       <div className=" grid grid-cols-1 lg:grid-cols-3 mt-24">
         <div className=" col-span-1 uppercase">

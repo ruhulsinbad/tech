@@ -2,6 +2,7 @@ import React, { lazy, useState } from "react";
 import WidgetsIcon from "@mui/icons-material/Widgets";
 import CancelIcon from "@mui/icons-material/Cancel";
 import { IconButton } from "@mui/material";
+import MenuBar from "./Menubar";
 
 const OverleyMenu = lazy(() => import("./OverleyMenu"));
 const HeroSection = lazy(() => import("./HeroSection"));
@@ -37,6 +38,7 @@ const Circle = () => {
       </div>
       <div>
         <div className={menu ? "invisible absolute" : "absolute"}>
+          <MenuBar />
           <HeroSection />
           <Project />
           <Portfolio />
