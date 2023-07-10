@@ -6,7 +6,7 @@ import { ReactComponent as Experience } from "../svg/experience.svg";
 
 const Project = () => {
   return (
-    <div className="  lg:h-screen ">
+    <div className="  lg:h-screen bg-slate-100 ">
       <div className=" grid grid-cols-1 lg:grid-cols-2">
         <div className=" lg:col-span-1 grid place-items-center">
           <img src={ImgSrc} alt="Web Dev" width={500} height={500} />

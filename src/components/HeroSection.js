@@ -5,10 +5,10 @@ import ImgSrc from "../photos/5721524.png";
 const HeroSection = () => {
   return (
     <div className="   px-2 lg:px-24  lg:h-screen bg-gradient-to-br from-[#ffffff] via-[#d8e5eb] to-[#f4f4f4] ">
-      <h1 className=" font-teko text-6xl pt-2 "> Techsinu </h1>
-      <div className=" grid grid-cols-1 lg:grid-cols-2 pt-20">
-        <div className=" grid place-items-center ">
-          <div className=" grid place-items-center w-full pt-24 uppercase text-5xl lg:text-7xl font-lexend font-bold text-[#03001C] opacity-90 ">
+      <h1 className=" font-teko text-6xl lg:pt-2 "> Techsinu </h1>
+      <div className=" grid grid-cols-1 lg:grid-cols-2 lg:py-32">
+        <div className=" h-screen lg:h-fit grid place-items-center ">
+          <div className=" grid place-items-center w-full ;g:pt-24 uppercase text-5xl lg:text-7xl font-lexend font-bold text-[#03001C] opacity-90 ">
             <div className="  place-items-center flex justify-center gap-4 w-full">
               We <DivChanger />
             </div>
