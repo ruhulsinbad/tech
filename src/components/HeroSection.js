@@ -29,7 +29,7 @@ const HeroSection = () => {
 
         {/* Photo Part  */}
         <div className=" hidden lg:block">
-          <img src={ImgSrc} alt=" hi" width={3125} height={2084} />
+          <img src={ImgSrc} alt=" hi" width={616} height={411} />
         </div>
       </div>
     </div>

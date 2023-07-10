@@ -15,7 +15,7 @@ const Blog = () => {
       </p>
       <div className=" grid col-span-1 lg:grid-cols-3 gap-10 mt-12">
         <Card>
-          <img src={Gmb} alt="gmb" />
+          <img src={Gmb} alt="gmb" width={394} height={253} />
           <div className=" p-4 flex flex-col gap-4">
             <h1 className=" font-lexend text-2xl ">
               Connecting Woocommerce to Your Google Business Listing
@@ -30,7 +30,7 @@ const Blog = () => {
           </div>
         </Card>
         <Card>
-          <img src={Fbad} alt="gmb" />
+          <img src={Fbad} alt="gmb" width={394} height={253} />
           <div className=" p-4 flex flex-col gap-4">
             <h1 className=" font-lexend text-2xl ">
               How to advertise on Facebook for free in 2023
@@ -45,7 +45,7 @@ const Blog = () => {
           </div>
         </Card>
         <Card>
-          <img src={Woo} alt="gmb" />
+          <img src={Woo} alt="gmb" width={394} height={253} />
           <div className=" p-4 flex flex-col gap-4">
             <h1 className=" font-lexend text-2xl ">
               Techsinu - Platinum expert Shopify Experts

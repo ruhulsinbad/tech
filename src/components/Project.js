@@ -9,7 +9,7 @@ const Project = () => {
     <div className="  lg:h-screen ">
       <div className=" grid grid-cols-1 lg:grid-cols-2">
         <div className=" lg:col-span-1 grid place-items-center">
-          <img src={ImgSrc} alt="Web Dev" />
+          <img src={ImgSrc} alt="Web Dev" width={500} height={500} />
         </div>
         <div className=" lg:col-span-1 flex flex-col justify-center gap-4 my-12 lg:my-0 ">
           <div className=" px-2 lg:px-24 font-cabin text-lg"> At Techsinu </div>
