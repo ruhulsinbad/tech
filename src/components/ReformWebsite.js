@@ -4,6 +4,7 @@ import { Button } from "@mui/material";
 import OverleyMenu from "./OverleyMenu";
 import WidgetsIcon from "@mui/icons-material/Widgets";
 import CancelIcon from "@mui/icons-material/Cancel";
+import { Outlet } from "react-router-dom";
 
 const MenuBar = lazy(() => import("./Menubar"));
 const HeroSection = lazy(() => import("./HeroSection"));
@@ -44,6 +45,9 @@ const ReformWebsite = () => {
         <Hire />
         <Footer />
       </div>
+      <main>
+        <Outlet />
+      </main>
     </div>
   );
 };

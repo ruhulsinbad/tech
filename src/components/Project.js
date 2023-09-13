@@ -19,25 +19,25 @@ const Project = () => {
           </div>
         </div>
       </div>
-      <div className="  py-4 lg:py-0 bg-teal-800 w-full lg:h-40 flex flex-col gap-8 lg:flex-row justify-evenly items-center drop-shadow-sm shadow-teal-300 ">
-        <div className=" flex  items-center gap-4 rounded-full bg-white px-2  drop-shadow-sm shadow-teal-300 ">
+      <div className=" px-20 lg:px-0  py-12 lg:py-4 bg-teal-800 w-full lg:h-40 flex flex-col gap-8 lg:flex-row justify-evenly items-center drop-shadow-sm shadow-teal-300 ">
+        <div className=" flex justify-center  w-full lg:w-fit items-center gap-4 rounded-full bg-white px-2 drop-shadow-sm shadow-teal-300 ">
           <Projects style={{ width: 60 }} />
           <div className=" pr-4 ">
             <p className=" font-ubuntu text-3xl">+350</p>
             <p className=" text-sm font-cabin"> Project completed</p>
           </div>
         </div>
-        <div className=" flex items-center gap-4 rounded-full bg-white px-2 drop-shadow-sm shadow-teal-300 ">
+        <div className=" flex justify-center  w-full lg:w-fit items-center gap-4 rounded-full bg-white px-2 drop-shadow-sm shadow-teal-300 ">
           <Client style={{ width: 60 }} />
           <div className=" pr-4 ">
             <p className=" font-ubuntu text-3xl">+250</p>
             <p className=" text-sm font-cabin"> Satisfied Clients</p>
           </div>
         </div>
-        <div className=" flex items-center gap-4 rounded-full bg-white px-2 drop-shadow-sm shadow-teal-300 ">
+        <div className=" flex justify-center w-full lg:w-fit items-center gap-4 rounded-full bg-white px-2 drop-shadow-sm shadow-teal-300 ">
           <Experience style={{ width: 60 }} />
           <div className=" pr-4 font-ubuntu ">
-            <p className=" font-ubuntu text-3xl">+5</p>
+            <p className=" flex  font-ubuntu text-3xl">+5</p>
             <p className=" text-sm font-cabin "> Years experience</p>
           </div>
         </div>
