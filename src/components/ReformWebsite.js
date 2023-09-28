@@ -4,20 +4,10 @@ import { Button } from "@mui/material";
 import OverleyMenu from "./OverleyMenu";
 import WidgetsIcon from "@mui/icons-material/Widgets";
 import CancelIcon from "@mui/icons-material/Cancel";
-import { Outlet, Router, useRoutes } from "react-router-dom";
+import { Outlet, useRoutes } from "react-router-dom";
 import menus from "./route/menus";
-import Home from "./Home";
 
 const MenuBar = lazy(() => import("./Menubar"));
-const HeroSection = lazy(() => import("./HeroSection"));
-const Project = lazy(() => import("./Project"));
-const Portfolio = lazy(() => import("./Portfolio"));
-const Service = lazy(() => import("./Service"));
-const Brand = lazy(() => import("./Brand"));
-const Testimonial = lazy(() => import("./Testimonial"));
-const Faq = lazy(() => import("./Faq"));
-const Blog = lazy(() => import("./Blog"));
-const Hire = lazy(() => import("./Hire"));
 const Footer = lazy(() => import("./Footer"));
 
 const ReformWebsite = () => {

@@ -3,13 +3,15 @@ import ImgSrc from "../photos/4300578.png";
 import { ReactComponent as Projects } from "../svg/projects.svg";
 import { ReactComponent as Client } from "../svg/client.svg";
 import { ReactComponent as Experience } from "../svg/experience.svg";
-
+import Lottie from "lottie-react";
+import webdev from "../json/animation_ln1vjsoh.json";
 const Project = () => {
   return (
     <div className="  lg:h-screen bg-slate-100 ">
       <div className=" grid grid-cols-1 lg:grid-cols-2">
         <div className=" lg:col-span-1 grid place-items-center">
-          <img src={ImgSrc} alt="Web Dev" width={500} height={500} />
+          <Lottie animationData={webdev} loop={true} />
+          {/* <img src={ImgSrc} alt="Web Dev" width={500} height={500} /> */}
         </div>
         <div className=" lg:col-span-1 flex flex-col justify-center gap-4 my-12 lg:my-0 ">
           <div className=" px-2 lg:px-24 font-cabin text-lg"> At Techsinu </div>

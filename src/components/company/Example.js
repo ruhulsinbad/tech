@@ -5,15 +5,16 @@ const Example = () => {
   return (
     <div className="">
       <div className=" text-center mt-20">
-        <h1 className=" uppercase font-lexend text-3xl font-extrabold">
+        {/* <h1 className=" uppercase font-lexend text-8xl font-extrabold">
           Browse Projects
-        </h1>
-        <p className=" text-lg font-lexend font-regular mt-2">
-          Some of our recent
-        </p>
+        </h1> */}
+
+        <div className=" opacity-90 uppercase text-center mx-auto  py-20 w-[40%] grid text-9xl font-lexend font-extrabold place-items-center">
+          Browse Projects
+        </div>
       </div>
 
-      <div className=" grid grid-cols-3 px-32 gap-6">
+      <div className=" mt-20 grid grid-cols-3 px-32 gap-6">
         <Card
           className=" col-span-1  mx-auto"
           variant="outlined"
