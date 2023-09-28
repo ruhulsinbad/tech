@@ -64,7 +64,7 @@ const HeroSection = () => {
         </div>
 
         {/* Photo Part  */}
-        <div className=" hidden h-screen  bg-white lg:block">
+        <div className="  hidden text-center h-screen  bg-white lg:grid lg:place-items-center">
           <Lottie className="" animationData={developer} loop={true} />
           {/* <img src={ImgSrc} alt=" hi" width={616} height={411} /> */}
         </div>
