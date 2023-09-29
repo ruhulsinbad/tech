@@ -7,12 +7,12 @@ import developer from "../json/animation_ln0mmlgx.json";
 import background from "../json/background2.json";
 import tick from "../json/tick.json";
 import go from "../json/go.json";
-import see from "../json/see.json";
 
 const HeroSection = () => {
   return (
-    <div className=" relative bg-[#00041B] h-screen  grid place-items-center lg:h-screen  ">
+    <div className=" relative  h-screen bg-[#00041B]  grid place-items-center lg:h-screen  ">
       {/* <h1 className=" font-teko text-6xl lg:pt-2 "> Techsinu </h1> */}
+      {/* bg-[#00041B] */}
       <div className=" grid grid-cols-1 lg:grid-cols-2">
         {/* <div className="  grid place-items-center ">
           <div className=" grid place-items-center w-full lg:pt-24 uppercase text-5xl lg:text-7xl font-lexend font-bold text-white opacity-90 ">
@@ -55,11 +55,12 @@ const HeroSection = () => {
                 For SME and Enterprise level business.{" "}
               </div>
             </div>
-
-            <button className=" flex flex-col gap-6 items-center ring-2 ring-white py-4 px-8 w-fit mt-8 place-self-center">
-              <Lottie animationData={go} loop={true} />
-              <p className=" text-xl font-raleway"> Start a project </p>
-            </button>
+            <Link className=" relative z-50  place-self-center" to={`pro`}>
+              <button className=" flex flex-col gap-6 items-center ring-2 ring-white py-4 px-8  w-fit mt-8 ">
+                <Lottie animationData={go} loop={true} />
+                <p className=" text-xl font-raleway"> Start a project </p>
+              </button>
+            </Link>
           </div>
         </div>
 
